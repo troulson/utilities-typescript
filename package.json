@@ -1,0 +1,30 @@
+{
+  "name": "utilities-typescript",
+  "version": "1.0.0",
+  "description": "An assortment of useful software for TypeScript.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troulson/utilities-typescript.git"
+  },
+  "author": "Thomas Roulson <tgiroulson@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troulson/utilities-typescript/issues"
+  },
+  "homepage": "https://github.com/troulson/utilities-typescript#readme",
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/functional-red-black-tree": "^1.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.9.4"
+  },
+  "dependencies": {
+    "functional-red-black-tree": "^1.0.1",
+    "aws-sdk": "^2.1343.0"
+  }
+}
